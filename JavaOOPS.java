@@ -1,5 +1,5 @@
 // implementation of oops in java
-// this was taken from https://www.youtube.com/watch?v=a199KZGMNxk
+// studied from https://www.youtube.com/watch?v=a199KZGMNxk
 
 
 public class JavaOOPS {
@@ -20,8 +20,27 @@ public class JavaOOPS {
 
         Person p3=new Person(31,"shanty monty");
         System.out.println("The name is "+p3.name);
+        System.out.println("The count is "+Person.count);
 
 
+        Developer d1=new Developer(31, "Bissu");
+        d1.walk();
+        d1.walk(2);
+
+
+    }
+}
+
+
+class Developer extends Person{
+    public Developer (int age, String name){
+        super(age,name);
+
+
+    }
+
+    void walk(){
+        System.out.println("Developer "+name+"is walking");
     }
 }
 
