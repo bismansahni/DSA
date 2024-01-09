@@ -1,5 +1,6 @@
 // implementation of oops in java
 // studied from https://www.youtube.com/watch?v=a199KZGMNxk
+//encapsulation is not covered here
 
 
 public class JavaOOPS {
