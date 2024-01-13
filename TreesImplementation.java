@@ -41,6 +41,23 @@ public class TreesImplementation {
 
         return root;
 
+
+        // better method is this which i learnt myself i think i understand this one better
+        // System.out.println("Enter data: ");
+        // int data=sc.nextInt();
+        // if(data==-1) return null;
+        // Node root=new Node(data);
+        // root =new Node(data);
+        // System.out.println("Enter data for left: "+data);
+        // root.left=createTree();
+        // System.out.println("Enter data for right: "+data);
+        // root.right=createTree();
+
+
+
+        // return root;
+
+
     }
 
 
