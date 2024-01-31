@@ -9,7 +9,7 @@ class Node {
     int data;
     Node next;
 
-    public Node(int data, Node next) {
+    public Node(int data, Node next) { // this is fine but mostly nodes just make a rule to just put the data in node "next is not neccessary"
         this.data = data;
         this.next = next;
     }
